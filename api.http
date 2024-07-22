@@ -1,0 +1,11 @@
+###
+POST http://127.0.0.1:8080/orders HTTP/1.1
+Content-Type: application/json
+
+{
+    "hotel_id": "reddison",
+    "room_id": "lux",
+    "email": "guest@mail.ru",
+    "from": "2024-01-06T00:00:00Z",
+    "to": "2024-01-08T00:00:00Z"
+}
